@@ -225,6 +225,23 @@
       }
     },
     {
+      "name": "PET Parameter Identification",
+      "repo": "Undying2021Dreams/Numerical-Sessional-Project",
+      "category": "Research",
+      "status": "won",
+      "desc": "Reimplements the numerical core of Holler, Morina and Schramm (2024): recovering PET pharmacokinetic rate constants from measured curves. LU, Householder QR, quadrature, random number generators and eigenvalue methods are all written by hand, with no library solvers.",
+      "role": "CSE 402 sessional project",
+      "tags": [
+        "Python",
+        "NumPy",
+        "Numerical methods"
+      ],
+      "links": {
+        "demo": "",
+        "writeup": ""
+      }
+    },
+    {
       "name": "ImpactAI",
       "repo": "RedWine356/ImpactAI",
       "category": "Apps",
@@ -336,16 +353,46 @@
       "where": "BUET"
     },
     {
-      "when": "Level 2, Term 2",
-      "title": "Built a MIPS-style CPU and assembler",
-      "where": "CSE 210, BUET",
-      "detail": "Datapath, ALU and control unit in Logisim, plus a C++ assembler."
+      "when": "Level 1, Term 1",
+      "title": "Sudoku game in C",
+      "where": "BUET",
+      "detail": "A basic Sudoku game built in C with iGraphics."
     },
     {
-      "when": "Sep 2026",
-      "title": "GARPGuard: defending LANs against gratuitous-ARP storms",
-      "where": "CSE 406 (Level 4, Term 1), BUET",
-      "detail": "40/40 live checks across 4 topologies."
+      "when": "Level 1, Term 2",
+      "title": "Restaurant app",
+      "where": "BUET",
+      "detail": "A restaurant app using Java networking and JavaFX."
+    },
+    {
+      "when": "Level 2, Term 1",
+      "title": "UniWorldGateway",
+      "where": "BUET",
+      "detail": "A full-fledged university application website built with Django and PostgreSQL."
+    },
+    {
+      "when": "Level 2, Term 2",
+      "title": "MIPS CPU and ALU",
+      "where": "CSE 210, BUET",
+      "detail": "A MIPS-style CPU (datapath, ALU, control unit) in Logisim, plus a C++ assembler."
+    },
+    {
+      "when": "Level 3, Term 1",
+      "title": "C/C++ compiler and a robot car",
+      "where": "BUET",
+      "detail": "Built a full compiler for C/C++, and a robot car on an ATmega32 microcontroller for the microprocessor project."
+    },
+    {
+      "when": "Level 3, Term 2",
+      "title": "Drug-target affinity prediction",
+      "where": "BUET",
+      "detail": "A graph neural network model that predicts drug-protein binding, using protein data from the AlphaFold database."
+    },
+    {
+      "when": "Level 4, Term 1",
+      "title": "GARPGuard and PET parameter identification",
+      "where": "CSE 406 and CSE 402, BUET",
+      "detail": "GARPGuard: defending LANs against gratuitous-ARP storms, 40/40 live checks across 4 topologies. Numerical project: hand-written solvers that recover PET pharmacokinetic rate constants."
     },
     {
       "when": "Now",

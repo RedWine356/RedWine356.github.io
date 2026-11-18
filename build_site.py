@@ -204,9 +204,7 @@ def build_html(cfg):
         legend = (f'<ul class="legend" aria-hidden="true"><li class="st-done">{pixel("pawn", "sm")} developed</li>'
                   f'<li class="st-training">{pixel("pawn", "sm")} developing now</li>'
                   f'<li class="st-locked">{pixel("pawn", "sm")} not yet on the board</li></ul>')
-        inner = (f'<p class="lede reveal">Each skill is a piece, and the whole tree is a small neural network. '
-                 f'A lit line joins two developed skills: a chain I can run end to end.</p>'
-                 f'<div class="graph-wrap reveal">{skill_graph(layers)}<p class="graph-caption" data-caption aria-live="polite">Hover or focus a piece.</p>{legend}</div>'
+        inner = (f'<div class="graph-wrap reveal">{skill_graph(layers)}<p class="graph-caption" data-caption aria-live="polite">Hover or focus a piece.</p>{legend}</div>'
                  f'{skill_list(layers)}')
         section("skills", "Skills", "Skill tree", inner)
 
