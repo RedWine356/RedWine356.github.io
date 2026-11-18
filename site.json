@@ -1,0 +1,369 @@
+{
+  "github": "RedWine356",
+  "name": "Ridhwanul Islam",
+  "piece": "knight",
+  "site_url": "https://redwine356.github.io",
+  "role": "CSE undergrad at BUET, ML research",
+  "title": "Ridhwanul Islam | ML Research and Systems",
+  "tagline": "4th-year CSE undergrad at BUET working on fairness in graph neural networks, ML security and efficient inference.",
+  "status": "Open to internships",
+  "email": "ridhwan3ash@gmail.com",
+  "resume": "assets/resume.pdf",
+  "og_image": "",
+  "links": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/RedWine356"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/ridwan-asif-082b47264/"
+    }
+  ],
+  "highlights": [
+    {
+      "value": "AISTATS 2027",
+      "label": "SFUGAG paper under review: source-free, label-free fair GNN adaptation"
+    },
+    {
+      "value": "10/10",
+      "label": "GridWise public cases valid, LP costs matching the reference"
+    },
+    {
+      "value": "40/40",
+      "label": "GARPGuard live checks across 4 network topologies"
+    }
+  ],
+  "about": {
+    "paragraphs": [
+      "I am a 4th-year Computer Science and Engineering undergrad at BUET. Right now I work on machine learning research: fairness in graph neural networks, ML security and efficient inference.",
+      "My current project, SFUGAG, adapts a graph neural network to a new graph fairly without source data or target labels. I worked out the approach and wrote the paper, which is under review. Before that I built the linear-programming core of GridWise and worked on network security, hardware and app projects for courses and competitions.",
+      "Away from the keyboard I play chess and watch a lot of movies. My favourite is The Prestige."
+    ],
+    "facts": [
+      [
+        "Studying",
+        "BSc in Computer Science and Engineering, BUET (expected June 2027)"
+      ],
+      [
+        "Focus",
+        "Fairness in GNNs, ML security, efficient inference"
+      ],
+      [
+        "Based in",
+        "Dhaka, Bangladesh"
+      ],
+      [
+        "Interests",
+        "Chess, movies (favourite: The Prestige)"
+      ]
+    ]
+  },
+  "model_card": [
+    [
+      "Intended use",
+      "Systems development or ML research internships."
+    ],
+    [
+      "Training data",
+      "CSE undergrad, 4th year at BUET; course, competition and research projects."
+    ],
+    [
+      "Known limitations",
+      "Documentation. I am better at building things than writing them up."
+    ],
+    [
+      "Evaluation",
+      "GridWise passes 10/10 public cases with LP costs matching the reference; SFUGAG paper under review at AISTATS 2027."
+    ]
+  ],
+  "skill_layers": [
+    {
+      "name": "languages",
+      "skills": [
+        {
+          "name": "C",
+          "state": "done"
+        },
+        {
+          "name": "C++",
+          "state": "done"
+        },
+        {
+          "name": "Python",
+          "state": "done"
+        },
+        {
+          "name": "C#",
+          "state": "done"
+        },
+        {
+          "name": "Java",
+          "state": "done"
+        },
+        {
+          "name": "JavaFX",
+          "state": "done"
+        }
+      ]
+    },
+    {
+      "name": "tech",
+      "skills": [
+        {
+          "name": "MongoDB",
+          "state": "done"
+        },
+        {
+          "name": "Postgres",
+          "state": "done"
+        },
+        {
+          "name": "ReactJS",
+          "state": "done"
+        },
+        {
+          "name": "Django",
+          "state": "done"
+        }
+      ]
+    },
+    {
+      "name": "deep learning",
+      "skills": [
+        {
+          "name": "PyTorch",
+          "state": "done"
+        },
+        {
+          "name": "PyG",
+          "state": "done"
+        }
+      ]
+    },
+    {
+      "name": "research now",
+      "skills": [
+        {
+          "name": "Efficient infer.",
+          "state": "training"
+        },
+        {
+          "name": "ML security",
+          "state": "training"
+        },
+        {
+          "name": "GNN fairness",
+          "state": "training"
+        },
+        {
+          "name": "HCI",
+          "state": "locked"
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "SFUGAG",
+      "repo": "Morningstaaar36/SFUGAG",
+      "category": "ML",
+      "status": "in play",
+      "difficulty": 5,
+      "desc": "Fair graph learning: source-free, label-free fair adaptation of a graph neural network. Only a frozen source task encoder and a sensitive head cross from the source graph; on the target the method reads node features and edges only. Scored on accuracy, AUC and two fairness gaps (demographic parity, equalized odds).",
+      "result": "Under review at AISTATS 2027",
+      "role": "I worked out the source-free, label-free fair adaptation approach and wrote the paper",
+      "tags": [
+        "PyTorch",
+        "PyG",
+        "GNN",
+        "Fairness"
+      ],
+      "links": {
+        "demo": "",
+        "writeup": ""
+      }
+    },
+    {
+      "name": "GridWise",
+      "repo": "Morningstaaar36/gridwise-llm-energy-optimizer",
+      "category": "ML",
+      "status": "won",
+      "difficulty": 4,
+      "desc": "LLM plus optimizer: reads operator notes, then a linear program finds the cheapest valid 24-hour grid, solar and battery plan.",
+      "result": "10/10 public cases valid",
+      "role": "I built the LP core",
+      "tags": [
+        "Python",
+        "LLM",
+        "LP",
+        "FastAPI"
+      ],
+      "links": {
+        "demo": "",
+        "writeup": ""
+      }
+    },
+    {
+      "name": "GARPGuard",
+      "repo": "RedWine356/GARPGuard",
+      "category": "Security",
+      "status": "won",
+      "difficulty": 4,
+      "desc": "Gratuitous-ARP storms as a LAN availability attack, and defences that survive them. Docker lab, ARP guard, PAROLE.",
+      "result": "40/40 live checks, 4 topologies",
+      "role": "CSE 406 group project (Level 4, Term 1)",
+      "tags": [
+        "Python",
+        "Docker",
+        "Networking",
+        "Security"
+      ],
+      "links": {
+        "demo": "",
+        "writeup": ""
+      }
+    },
+    {
+      "name": "ImpactAI",
+      "repo": "RedWine356/ImpactAI",
+      "category": "Apps",
+      "status": "won",
+      "desc": "Cognisor AI Hackathon project on government accountability.",
+      "result": "Top 20 selection, Cognisor AI Hackathon",
+      "role": "Team project: I was responsible for backend management",
+      "tags": [
+        "TypeScript",
+        "Hackathon"
+      ],
+      "links": {
+        "demo": "",
+        "writeup": ""
+      }
+    },
+    {
+      "name": "MIPS CPU + Assembler",
+      "repo": "RedWine356/Level-2_Term-2_CourseWorks/tree/main/CSE210/MIPS",
+      "category": "Systems",
+      "status": "won",
+      "difficulty": 3,
+      "desc": "A MIPS-style CPU (datapath, ALU, control unit) built in Logisim, plus a C++ assembler that turns MIPS code into machine code.",
+      "result": "",
+      "role": "CSE 210 group project",
+      "tags": [
+        "Logisim",
+        "C++",
+        "MIPS",
+        "Hardware"
+      ],
+      "links": {
+        "demo": "",
+        "writeup": ""
+      }
+    },
+    {
+      "name": "Barnomala Fee Tracker",
+      "repo": "RedWine356/Coaching_fee_tracker",
+      "category": "Apps",
+      "status": "won",
+      "difficulty": 2,
+      "desc": "Android app for a coaching center: batches, students and a month-by-month fee register. Offline, local SQLite, elderly-friendly UI.",
+      "result": "",
+      "tags": [
+        "Flutter",
+        "Dart",
+        "Android",
+        "SQLite"
+      ],
+      "links": {
+        "demo": "",
+        "writeup": ""
+      }
+    },
+    {
+      "name": "ShowTime",
+      "repo": "Morningstaaar36/Showtime",
+      "category": "ML",
+      "status": "puzzle",
+      "desc": "Crowd-safety planner where AI agents build a venue in 3D, red-team it and keep only simulator-proven fixes.",
+      "role": "Contributor",
+      "tags": [
+        "AI agents",
+        "Simulation"
+      ],
+      "links": {
+        "demo": "",
+        "writeup": ""
+      }
+    },
+    {
+      "name": "Reddit-Clone",
+      "repo": "nothing-reasonable/Reddit-Clone",
+      "category": "Apps",
+      "status": "puzzle",
+      "desc": "Team-built Reddit clone in TypeScript and Java.",
+      "role": "Contributor",
+      "tags": [
+        "TypeScript",
+        "Java"
+      ],
+      "links": {
+        "demo": "",
+        "writeup": ""
+      }
+    },
+    {
+      "name": "RestaurantAppJava",
+      "repo": "RedWine356/RestaurantAppJava",
+      "category": "Apps",
+      "status": "puzzle",
+      "desc": "Restaurant app using Java networking and JavaFX.",
+      "tags": [
+        "Java",
+        "JavaFX",
+        "Networking"
+      ],
+      "links": {
+        "demo": "",
+        "writeup": ""
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "when": "Nov 2022",
+      "title": "Started BSc in Computer Science and Engineering",
+      "where": "BUET"
+    },
+    {
+      "when": "Level 2, Term 2",
+      "title": "Built a MIPS-style CPU and assembler",
+      "where": "CSE 210, BUET",
+      "detail": "Datapath, ALU and control unit in Logisim, plus a C++ assembler."
+    },
+    {
+      "when": "Sep 2026",
+      "title": "GARPGuard: defending LANs against gratuitous-ARP storms",
+      "where": "CSE 406 (Level 4, Term 1), BUET",
+      "detail": "40/40 live checks across 4 topologies."
+    },
+    {
+      "when": "Now",
+      "title": "SFUGAG under review at AISTATS 2027",
+      "where": "Fair graph learning",
+      "detail": "Also studying efficient inference systems and ML security. Next on the list: HCI."
+    }
+  ],
+  "writing": [
+    {
+      "title": "SFUGAG: Source-Free Unsupervised Group-Fair Adaptation across Graphs",
+      "url": "https://github.com/Morningstaaar36/SFUGAG",
+      "venue": "Under review at AISTATS",
+      "year": "2027"
+    }
+  ],
+  "contact": {
+    "heading": "Your move.",
+    "text": "I am open to systems development and ML research internships. If you are hiring, or want to talk about fair graph learning, ML security or efficient inference, email me."
+  }
+}

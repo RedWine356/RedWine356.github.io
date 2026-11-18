@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://redwine356.github.io/sitemap.xml
